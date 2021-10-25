@@ -1,0 +1,11 @@
+You can use this js script using urlByTime() function's parameters.
+urlByTime() function has following parameters these are:
+Parameter-1: Hour of Time in UTC format, 
+Parameter-2: Minute of Time in UTC format, 
+Parameter-3: URL of link which you want to protect
+
+Example: urlByTime(16,00,'http://google.com');
+
+It means http://google.com url open, when time is equal or greater than 16:00 (UTC Time).
+
+You can call urlByTime(16,00,'http://google.com') this function with parameter after integrating following file source into you code.
