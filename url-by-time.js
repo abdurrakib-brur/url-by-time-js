@@ -1,4 +1,3 @@
-<script>
   function urlByTime(set_h, set_m, set_url){
     var d = new Date("July 21, 1983 01:15:00");
     var hour = d.getUTCHours();
@@ -26,4 +25,3 @@
         alert("It's not time yet!");
       }
   }
-</script>
